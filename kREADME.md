@@ -1,2 +1,62 @@
-k
-# qkrtnals1000.github.io
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title> sum </title>
+    <link rel="stylesheet" href="sum.css.css"/>
+    <style>
+        .floating-box{
+            display: inline-block;
+            width: 400px;
+            margin: 10px;
+            border: 3px powderblue;
+            float: left; }
+        h2{border-radius: 10px 10px 10px 10px; text-align: center}
+        #스크롤{height: 200px; overflow-y: scroll;}
+    </style>
+
+</head>
+<body>
+<div class="floating-box">
+    <h2 id="intro"> &nbsp;&nbsp;intro </h2>
+    <a href="#ME"> 박수민</a><br/>
+    <a href="#Like"> 좋아하는 것 </a><br/>
+    <a href="#Active"> 취미 </a><br/>
+    <a href="#Friend"> 음식 </a><br/>
+    <br/>
+</div>
+<div id="스크롤" class="floating-box">
+    <h2 id="ME"> 박수민 </h2>
+    <p> 1494076</p>
+    <p> 한성대학교 it응용시스템공학과</p>
+    <p>경기도 남양주시</p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+</div>
+<div class="floating-box">
+    <h2 id="좋아하는 것"> 좋아하는 것 </h2>
+    <p> 축구 </p>
+    <p> 자동차 </p>
+    <image src="" width="300" height="250"/>
+
+</div>
+<div class="floating-box">
+    <h2 id="취미"> 취미 </h2>
+    <p> 축구 </p>
+    <p> 게임 </p>
+    <p> </p>
+    <p> </p>
+</div>
+
+<div class="floating-box">
+    <h2 id="음식"> 음식 </h2>
+    <p> 고기 </p>
+    <p> 냉면 </p>
+    <p> 햄버거</p>
+    <p> 치킨 </p>
+    <p> 피자 </p>
+</div>
+<a href="#intro"> intro </a>
+</body>
+</html>
